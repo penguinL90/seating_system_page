@@ -41,6 +41,7 @@
 }
 
 .stcontainer[b-78b9vlhvqe] {
+    width: fit-content;
     background-color: #233439;
     display: flex; 
     flex-flow: column;
@@ -629,13 +630,12 @@ p[b-kkh6cxf6i8] {
 }
 
 .bd[b-wja409q0hn] {
-    height: fit-content;
-    width: fit-content;
+    height: contain;
+    width: contain;
     max-width: 90vw;
     max-height: 55vh;
     margin: auto;
     background-color: #34545E;
-    display: flex;
     flex-direction: column;
 }
 
@@ -697,7 +697,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 
     .bd[b-wja409q0hn] {
         border-radius: 1rem;
-        padding: 1.4rem;
+        padding: 1rem;
     }
 
     .btngroup[b-wja409q0hn] {
@@ -708,11 +708,11 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
         margin: 0.25rem;
         padding: 0.5rem;
         border-radius: 0.5rem;
-        font-size: 0.9rem;
+        font-size: 90%;
     }
 
     #selectbtn[b-wja409q0hn] {
-        font-size: 1.25rem;
+        font-size: 150%;
     }
 }
 
@@ -735,10 +735,11 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
         margin: 0.5rem;
         padding: 1rem;
         border-radius: 1rem;
+        font-size: 100%;
     }
 
     #selectbtn[b-wja409q0hn] {
-        font-size: 2rem;
+        font-size: 200%;
     }
 }
 /* /Pages/SelectPage.razor.rz.scp.css */
