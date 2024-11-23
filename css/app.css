@@ -79,13 +79,32 @@ code {
 .headerimage {
     background-image: url("../img/headerimage.png");
     background-size: cover;
-    background-size: auto;
     background-position-y: center;
     background-position-x: center;
 }
 .footerimage {
     background-image: url("../img/headerimage.png");
-    background-size: auto;
+    background-size: cover;
     background-position-y: center;
     background-position-x: center;
+}
+
+@media (min-width: 600.5px) {
+    .headerimage {
+        background-size: cover;
+    }
+
+    .footerimage {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 600.5px) {
+    .headerimage {
+        background-size: auto;
+    }
+
+    .footerimage {
+        background-size: auto;
+    }
 }
