@@ -636,7 +636,7 @@ p[b-kkh6cxf6i8] {
     max-height: 55vh;
     margin: auto;
     background-color: #34545E;
-    flex-direction: column;
+    justify-items: center;
 }
 
 h3[b-wja409q0hn], h5[b-wja409q0hn] {
@@ -644,8 +644,11 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 }
 
 .btngroup[b-wja409q0hn] {
+    width: 90%;
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
     margin-bottom: 0;
 }
 
