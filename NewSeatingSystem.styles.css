@@ -41,7 +41,6 @@
 }
 
 .stcontainer[b-78b9vlhvqe] {
-    justify-self: center;
     background-color: #233439;
     display: flex; 
     flex-flow: column;
@@ -632,8 +631,12 @@ p[b-kkh6cxf6i8] {
 .bd[b-wja409q0hn] {
     height: fit-content;
     width: fit-content;
+    max-width: 90vw;
+    max-height: 55vh;
     margin: auto;
     background-color: #34545E;
+    display: flex;
+    flex-direction: column;
 }
 
 h3[b-wja409q0hn], h5[b-wja409q0hn] {
@@ -672,8 +675,6 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 }
 
 #distributebtn[b-wja409q0hn] {
-    display: flex;
-    flex-direction: column;
     grid-row: 2;
 }
 
@@ -770,7 +771,6 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     overflow-y: auto;
     overflow-wrap: anywhere;
     scrollbar-width: none;
-    justify-self: center;
     align-content: center;
 }
 
@@ -779,7 +779,6 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     }
 
 .frame[b-2ke32dsxzi] {
-    justify-self: center;
     display: block;
     border: 1px solid;
     overflow: hidden;
