@@ -41,7 +41,7 @@
 }
 
 .stcontainer[b-78b9vlhvqe] {
-    width: fit-content;
+    justify-self: center;
     background-color: #233439;
     display: flex; 
     flex-flow: column;
@@ -630,8 +630,8 @@ p[b-kkh6cxf6i8] {
 }
 
 .bd[b-wja409q0hn] {
-    height: contain;
-    width: contain;
+    height: fit-content;
+    width: fit-content;
     max-width: 90vw;
     max-height: 55vh;
     margin: auto;
@@ -643,8 +643,6 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 }
 
 .btngroup[b-wja409q0hn] {
-    width: 90%;
-    height: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 0;
@@ -698,7 +696,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 
     .bd[b-wja409q0hn] {
         border-radius: 1rem;
-        padding: 1rem;
+        padding: 1.4rem;
     }
 
     .btngroup[b-wja409q0hn] {
@@ -709,11 +707,11 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
         margin: 0.25rem;
         padding: 0.5rem;
         border-radius: 0.5rem;
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     #selectbtn[b-wja409q0hn] {
-        font-size: 1.35rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -736,7 +734,6 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
         margin: 0.5rem;
         padding: 1rem;
         border-radius: 1rem;
-        font-size: 1.15rem;
     }
 
     #selectbtn[b-wja409q0hn] {
@@ -753,6 +750,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     background-color: #45616A;
     align-content: center;
     transition: background-color 0.1s, transform 0.2s;
+    grid-row: 1;
 }
 
     .button p[b-2ke32dsxzi] {
@@ -767,17 +765,16 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     }
 
 .resultstr[b-2ke32dsxzi] {
-    border: 0.2rem #233439 solid;
+    border: 1px solid;
     text-align: center;
     overflow-y: auto;
     overflow-wrap: anywhere;
     scrollbar-width: none;
     align-content: center;
+    background-color: transparent;
+    resize: none;
+    display: block;
 }
-
-    .resultstr p[b-2ke32dsxzi] {
-        user-select: all;
-    }
 
 .frame[b-2ke32dsxzi] {
     display: block;
@@ -785,19 +782,25 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     overflow: hidden;
 }
 
+.summonbtngroup[b-2ke32dsxzi] {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+}
+
 @media (max-width: 600.5px) {
     .p[b-2ke32dsxzi] {
         font-size: 1rem;
         padding: 0 5vw;
-        margin-bottom: 1.5rem;
+        margin: 1.5rem;
         margin-top: 1.5rem;
     }
 
     .button[b-2ke32dsxzi] {
         width: 3.75rem;
         right: 0.1875rem;
-        margin-bottom: 1.5rem;
         border-radius: 0.375rem;
+        margin: 1.125rem;
     }
 
         .button p[b-2ke32dsxzi] {
@@ -830,7 +833,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     .button[b-2ke32dsxzi] {
         width: 5rem;
         right: 0.25rem;
-        margin-bottom: 1.5rem;
+        margin: 1.5rem;
         border-radius: 0.5rem;
     }
 
