@@ -41,7 +41,9 @@
 }
 
 .stcontainer[b-78b9vlhvqe] {
-    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     background-color: #233439;
     display: flex; 
     flex-flow: column;
@@ -644,14 +646,16 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 
 .btngroup[b-wja409q0hn] {
     display: grid;
+    grid-template-rows: 1.5fr 1fr;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 0;
 }
 
 .button[b-wja409q0hn] {
+    width: contain;
+    height: contain;
     background: #45616A;
     text-align: center;
-    aspect-ratio: 3;
     align-content: center;
     display: block;
     transition: transform 0.2s, background-color 0.2s;
@@ -701,6 +705,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 
     .btngroup[b-wja409q0hn] {
         margin: 0.5rem;
+        width: 15rem;
     }
 
     .button[b-wja409q0hn] {
@@ -728,11 +733,12 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
 
     .btngroup[b-wja409q0hn] {
         margin: 1rem;
+        width: 25rem;
     }
 
     .button[b-wja409q0hn] {
-        margin: 0.5rem;
-        padding: 1rem;
+        margin: 0.25rem;
+        padding: 2rem;
         border-radius: 1rem;
     }
 
@@ -770,6 +776,7 @@ h3[b-wja409q0hn], h5[b-wja409q0hn] {
     overflow-y: auto;
     overflow-wrap: anywhere;
     scrollbar-width: none;
+    -webkit-align-content: center;
     align-content: center;
     background-color: transparent;
     resize: none;
