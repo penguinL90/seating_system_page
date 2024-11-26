@@ -719,6 +719,127 @@ p[b-kkh6cxf6i8] {
         padding: 0.3rem;
     }
 }
+/* /Pages/EmbeddedSelectPage.razor.rz.scp.css */
+.p[b-ze8bd38wti] {
+    text-align: center;
+}
+
+.button[b-ze8bd38wti] {
+    aspect-ratio: 2;
+    background-color: #45616A;
+    align-content: center;
+    transition: background-color 0.1s, transform 0.2s;
+    grid-row: 1;
+}
+
+    .button p[b-ze8bd38wti] {
+        text-align: center;
+        margin: auto;
+        font-weight: 800;
+        user-select: none;
+    }
+
+    .button:active[b-ze8bd38wti] {
+        background-color: #3E574F;
+    }
+
+.resultstr[b-ze8bd38wti] {
+    border: 1px solid;
+    text-align: center;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    scrollbar-width: none;
+    -webkit-align-content: center;
+    align-content: center;
+    background-color: transparent;
+    resize: none;
+    display: block;
+}
+
+.frame[b-ze8bd38wti] {
+    display: block;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.summonbtngroup[b-ze8bd38wti] {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+}
+
+@media (max-width: 600.5px) {
+    .p[b-ze8bd38wti] {
+        font-size: 1rem;
+        padding: 0 5vw;
+        margin: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .button[b-ze8bd38wti] {
+        width: 5rem;
+        right: 0.25rem;
+        border-radius: 0.5rem;
+        margin: 1.5rem;
+    }
+
+        .button p[b-ze8bd38wti] {
+            font-size: 0.95rem;
+        }
+
+    .resultstr[b-ze8bd38wti] {
+        width: 90vw;
+        height: 30vh;
+        border-radius: 1rem;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .frame[b-ze8bd38wti] {
+        width: 90vw;
+        height: 60vh;
+        margin-bottom: 1.5rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width: 600.5px) {
+    .p[b-ze8bd38wti] {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .button[b-ze8bd38wti] {
+        width: 7.5rem;
+        right: 0.375rem;
+        margin: 2.25rem;
+        border-radius: 0.75rem;
+    }
+
+        .button p[b-ze8bd38wti] {
+            font-size: 1.5rem;
+        }
+
+        .button:hover[b-ze8bd38wti] {
+            transform: scale(1.05);
+        }
+
+    .resultstr[b-ze8bd38wti] {
+        width: 50vw;
+        height: 20vh;
+        border-radius: 2rem;
+        padding: 0 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .frame[b-ze8bd38wti] {
+        width: 50vw;
+        height: 50vh;
+        margin-bottom: 1.5rem;
+        border-radius: 2rem;
+    }
+}
 /* /Pages/Home.razor.rz.scp.css */
 .bg[b-wja409q0hn] {
     position: relative;
